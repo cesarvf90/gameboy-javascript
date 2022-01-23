@@ -15,8 +15,8 @@ class GameboyButton extends HTMLElement {
         height: var(--size);
         background-color: #E66E94;
         border-radius: 50%;
-        background: radial-gradient(26px 26px at 24px 27px, #6F0119 75%, #A20D37 90%,#EF94B2);
-        box-shadow: 1px -4px 0 -3px #7c4b5b inset, -3px 7px 5px -2px #1e0009, 1px -1px 0 2px #53182b;
+        background: radial-gradient(26px 26px at 24px 27px, #101010 75%, #505050 90%,#101010);
+        box-shadow: 1px -4px 0 -3px #101010 inset, -3px 7px 5px -2px #505050, 1px -1px 0 2px #101010;
       }
 
       .label {

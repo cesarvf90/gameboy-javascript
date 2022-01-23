@@ -25,7 +25,7 @@ class GameboySpeaker extends HTMLElement {
         height: 60px;
         border-radius: 8px;
         box-shadow: 3px 6px 1px rgba(0, 0, 0, 0.6) inset;
-        background: rgba(0, 0, 0, 0.35);
+        background: rgba(0, 0, 0, 1);
       }
     `;
   }

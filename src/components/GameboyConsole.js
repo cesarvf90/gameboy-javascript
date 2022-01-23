@@ -23,7 +23,7 @@ class GameboyConsole extends HTMLElement {
 
         width: var(--width);
         height: var(--height);
-        background-color: #d7d2d8;
+        background-color: #74E62C;
         background-image:
           linear-gradient(-31deg, #8b8b8b 0 75px, transparent 80px),
           var(--gameboy-bottom-depth);
@@ -212,7 +212,7 @@ class GameboyConsole extends HTMLElement {
         <gameboy-crystal></gameboy-crystal>
         <div class="brand">
           <span class="company">Nintendo</span>
-          <span class="product">GAME BOY</span>
+          <span class="product">GAME BOY COLOR</span>
           <sub>™</sub>
         </div>
       </div>
