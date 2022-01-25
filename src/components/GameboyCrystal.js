@@ -115,7 +115,7 @@ class GameboyCrystal extends HTMLElement {
       <div class="bottom">
         <div class="battery">
           <div class="led on"></div>
-          <div class="text">BATTERY</div>
+          <div class="text">POWER</div>
         </div>
         <gameboy-screen></gameboy-screen>
       </div>
