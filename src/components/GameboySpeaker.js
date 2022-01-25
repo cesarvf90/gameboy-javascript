@@ -12,12 +12,12 @@ class GameboySpeaker extends HTMLElement {
 
       .container {
         display: flex;
-        width: 120px;
+        width: 100px;
         justify-content: space-around;
         position: absolute;
         right: 10px;
         bottom: 35px;
-        transform: rotate(-30deg);
+        transform: rotate(-6deg);
       }
 
       .band {
