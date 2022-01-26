@@ -7,7 +7,7 @@ class GameboyOptionButton extends HTMLElement {
   static get styles() {
     return /* css */`
       :host {
-        --width: 50px;
+        --width: 30px;
         --height: 12px;
       }
 
@@ -16,7 +16,6 @@ class GameboyOptionButton extends HTMLElement {
           box-shadow:
             -4px 4px 3px -3px #0005 inset,
             4px -4px 3px -3px #fffc inset;
-          transform: rotate(-28deg);
           border-radius: 15px;
           padding: 1px 0;
       }
@@ -40,7 +39,7 @@ class GameboyOptionButton extends HTMLElement {
         font-size: 10px;
         letter-spacing: 0.5px;
         color: #302058;
-        transform: translate(10px, 2px) rotate(-28deg);
+        transform: translate(10px, 2px) rotate(0deg);
         text-align: center;
       }
     `;
