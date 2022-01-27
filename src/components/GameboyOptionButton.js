@@ -12,7 +12,7 @@ class GameboyOptionButton extends HTMLElement {
       }
 
       .container {
-          background: linear-gradient(to top, #EFF2F0, #AE9FA6);
+          background: linear-gradient(to top, #000000, #454545);
           box-shadow:
             -4px 4px 3px -3px #0005 inset,
             4px -4px 3px -3px #fffc inset;
@@ -22,7 +22,7 @@ class GameboyOptionButton extends HTMLElement {
 
       .button {
         background: #9e9baf;
-        background-image: linear-gradient(#C0BECA, #7F7584);
+        background-image: linear-gradient(#000000, #454545);
         border-radius: 10px;
         box-shadow:
           -2px -2px 5px #0004 inset,
@@ -31,7 +31,7 @@ class GameboyOptionButton extends HTMLElement {
           -1px 2px 3px #000d;
         width: var(--width);
         height: var(--height);
-        margin: 3px 6px;
+        margin: 2px 6px;
       }
 
       .label {
